@@ -1,8 +1,6 @@
 \documentclass[letterpaper,11pt]{article}
 \usepackage{fontawesome5}
-
 \usepackage[utf8]{inputenc}
-\usepackage{fontawesome}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{latexsym}
@@ -32,17 +30,16 @@
 \addtolength{\textwidth}{1.19in}
 \addtolength{\topmargin}{-.7in}
 \addtolength{\textheight}{1.5in}
-
+\setlength{\footskip}{4.08003pt}
 \urlstyle{same}
 
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
 \titleformat{\section}{
   \vspace{-7pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
 
 % Ensure that generated pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -57,7 +54,7 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item[]
+  \vspace{0pt}\item[]
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -94,8 +91,8 @@
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge  Daniel Park} \\ \vspace{1pt}
-    \small +1 548-788-1341 $|$ \href{}{\textcolor{blue}{\underline{spark736@uwo.ca}}} $|$ 
+    \textbf{\Huge  Daniel Park} \\ \vspace{2pt}
+    \footnotesize +1(548)-788-1341 $|$ \href{mailto:parkdaniel0225@gmail.com}{\textcolor{blue}{\underline{parkdaniel0225@gmail.com}}} $|$ 
     \href{https://github.com/parkdaniel0225}{\textcolor{blue}{\underline{github.com/parkdaniel0225}}}
 $|$ 
 \href{https://www.linkedin.com/in/danielpark0225}{\textcolor{blue}{\underline{linkedin.com/in/danielpark0225}}}
@@ -106,7 +103,7 @@ $|$
 \end{center}
 
 %-----------EDUCATION-----------
-\section{\textcolor{blue}{\textbf{Education}}}
+\vspace{-13pt}\section{\textcolor{blue}{\textbf{Education}}}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Western University}{}
@@ -120,17 +117,16 @@ $|$
 Member of 
 \textbf{Western AI}, 
 \textbf{Western CS Undergraduate Society} and Events Assistant at Western Sneaker Club. \textbf{}}
-     \resumeItemListEnd
-     \vspace{-0.5pt}\item \small{\textbf{Relevant Courses:} Databases, Operating Systems, Data Structures and Algorithms, Unstructured Data, Machine Learning, Statistical Programming}
+    \resumeItemListEnd
+    \vspace{-2pt}\item \small{\textbf{Relevant Courses:} Databases, Operating Systems, Data Structures and Algorithms, Unstructured Data, Machine Learning, Statistical Programming}
 
   \resumeSubHeadingListEnd
 
- 
 %---------------------Experience---------------
   
 \section{\textcolor{blue}{\textbf{Professional Experiences}}}
 \resumeSubHeadingListStart
- \resumeSubheading
+\resumeSubheading
   {Data \& Machine Learning Intern}{Sept. 2025 -- Present}
   {HEAL}{}
 \resumeItemListStart
@@ -140,7 +136,7 @@ Member of
 \resumeItem{Applied \textbf{machine learning methods} such as clustering and time-series analysis to study neighborhood retail patterns and store density trends, and generated exploratory visualizations in \textbf{Matplotlib/Seaborn} to support further analysis.}
 \resumeItemListEnd
 
- \resumeSubheading
+\resumeSubheading
   {Data Science Intern}{Sept. 2024 -- Aug. 2025}
   {interRAI}{}
 \resumeItemListStart
@@ -160,8 +156,8 @@ Member of
 
 
 \resumeSubheading
-     {\href{}{Software Developer Intern}}{Sept 2023 -- Apr. 2024}
-     {Cultureplex}{}
+    {\href{}{Software Developer Intern}}{Sept 2023 -- Apr. 2024}
+    {Cultureplex}{}
 \resumeItemListStart
 \resumeItem{Developed \textbf{Python (pandas, NumPy)} and \textbf{SQL}-based tools to clean and analyze cultural datasets, helping researchers process information more efficiently for digital humanities projects.}
 \resumeItem{Improved \textbf{MySQL} database performance by normalizing schemas, adding indexes, and tuning queries, which reduced retrieval time and ensured reliable, consistent results.}
@@ -173,7 +169,7 @@ Member of
 %-----------LEADERSHIP-------
 \section{\textcolor{blue}{\textbf{Leadership Experiences}}}
 \resumeSubHeadingListStart
- \resumeSubheading
+\resumeSubheading
   {Restaurant Manager}{Oct. 2021 -- Sept. 2023}
   {Chung Chun Rice Dog}{}
 \resumeItemListStart
@@ -202,16 +198,18 @@ Collaborated on project specifications and optimized \textbf{UI/UX design} to de
 
 
 %-----------SKILLS-----------
-\section{\textcolor{blue}{\textbf{Technical Skills \& Certifications}}}\begin{itemize}[leftmargin=0.03in, label={}]
+\section{\textcolor{blue}{\textbf{Technical Skills \& Certifications}}}
+\begin{itemize}[leftmargin=0.03in, label={}]
     \small{\item{
     \textbf{Tech Stack/Tool:} Python, Java, C, C++, C\#, Java, R, Bash, PHP, HTML/CSS, XML, AWS, Git, Azure, Django, .NET, Seaborn, Google Cloud \\
-\textbf{Databases:} SQL, Firebase, MongoDB, SQLite, DynamoDB, PostgreSQL, Supabase
-}
-\vspace{-0.1pt}
+    \textbf{Databases:} SQL, Firebase, MongoDB, SQLite, DynamoDB, PostgreSQL, Supabase
+    }}
+\end{itemize}
+
 \resumeItemListStart
+\vspace{-12pt}
 \resumeItem{\textbf{Meta} Database Engineer Professional Certificate}
 \resumeItem{\textbf{Meta} Backend Developer Specialization Certificate}
-   
-
-\end{itemize}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 \end{document}
