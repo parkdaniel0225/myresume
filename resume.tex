@@ -38,8 +38,8 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \vspace{-7pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-9pt}]
 
 % Ensure that generated pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -73,12 +73,12 @@
 
 \newcommand{\resumeItemListStart}{
   \begin{itemize}[leftmargin=0.3in, label=\textbullet]
-  \setlength{\itemsep}{1.5pt}  
+  \setlength{\itemsep}{2pt}  
   \setlength{\parsep}{1pt}
 }
 
 \newcommand{\resumeItemListEnd}{
-  \end{itemize}\vspace{-2pt}
+  \end{itemize}\vspace{-5pt}
 }
 
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,7 +97,7 @@ $|$
 \end{center}
 
 %-----------EDUCATION-----------
-\vspace{-13pt}\section{\textcolor{blue}{\textbf{Education}}}
+\vspace{-11pt}\section{\textcolor{blue}{\textbf{Education}}}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Western University}{Sept. 2021 -- Apr. 2026}
@@ -105,7 +105,7 @@ $|$
     \resumeItemListStart
 \resumeItem{Member of \textbf{Western AI}, \textbf{Western CS Undergraduate Society} and Events Assistant at Western Sneaker Club.}
     \resumeItemListEnd
-    \vspace{-2pt}\item \small{\textbf{Relevant Courses:} Machine Learning, Databases, Statistical Programming, Unstructured Data, Operating Systems, Data Structures and Algorithms}
+    \vspace{-6pt}\item \small{\textbf{Relevant Courses:} Machine Learning, Databases, Statistical Programming, Unstructured Data, Operating Systems, Data Structures and Algorithms, Computer Networks}
   \resumeSubHeadingListEnd
 
 %---------------------Experience---------------
@@ -116,39 +116,40 @@ $|$
   {Data \& Machine Learning Intern}{Sept. 2025 -- Apr. 2026}
   {HEAL}{}
 \resumeItemListStart
-\resumeItem{Engineered an automated data pipeline integrating the \textbf{Google Places API} to track neighborhood substance store activity, detecting spatial anomalies and ensuring cross-source dataset integrity.}
-\resumeItem{Developed robust data standardization workflows utilizing \textbf{Python (pandas, NumPy, regex)} to sanitize unstructured address data, significantly reducing data inconsistencies for downstream analytics.}
-\resumeItem{Designed version-controlled storage architectures with rigorous schema validation, establishing data governance protocols that minimized errors and guaranteed long-term reliability.}
-\resumeItem{Applied advanced \textbf{machine learning models}, including clustering and time-series forecasting, to analyze retail density trends, delivering actionable data visualizations via \textbf{Matplotlib/Seaborn}.}
+\resumeItem{Architected an automated, cloud-native \textbf{ETL pipeline} on \textbf{AWS} utilizing \textbf{Apache Airflow} to orchestrate data ingestion from the \textbf{Google Places API}, detecting spatial anomalies and ensuring cross-system integrity for downstream \textbf{machine learning (ML)} applications.}
+\resumeItem{Developed robust \textbf{data transformation} micro-workflows in \textbf{Python (pandas, NumPy, regex)} to sanitize and reconcile unstructured text data, significantly reducing anomalies and decoupling data preparation from analytics flows.}
+\resumeItem{Designed a scalable, version-controlled \textbf{data model} and storage architecture on \textbf{AWS} with rigorous schema validation, establishing centralized governance protocols that guaranteed high availability and long-term pipeline reliability.}
+\resumeItem{Deployed predictive \textbf{machine learning models} utilizing \textbf{Scikit-Learn} and \textbf{XGBoost} (clustering, time-series forecasting) to analyze retail density trends, translating complex data into actionable visualizations to drive \textbf{strategic, data-driven decisions}.}
+\resumeItem{Implemented \textbf{MLOps} best practices for model validation and performance monitoring, collaborating with \textbf{cross-functional stakeholders} to translate complex analytical outputs into clear technical specifications and business requirements.}
 \resumeItemListEnd
 
 \resumeSubheading
   {Data Science Intern}{Sept. 2024 -- Aug. 2025}
   {interRAI}{}
 \resumeItemListStart
-\resumeItem{Managed the data preparation lifecycle for large-scale clinical datasets using \textbf{SAS}, optimizing data validation processes to ensure high-fidelity inputs for health research.}
-\resumeItem{Modernized data processing by engineering automated workflows with \textbf{SAS SQL} and macros, reducing manual overhead and accelerating execution runtimes by approximately \textbf{30\%}.}
-\resumeItem{Spearheaded a comprehensive technical training initiative, documenting core SAS architectures to accelerate onboarding and enhance cross-functional team efficiency.}
-\resumeItem{Delivered interactive, publication-ready analytical dashboards utilizing \textbf{Power BI} and \textbf{R Markdown}, directly supporting the publication of multiple peer-reviewed clinical studies.}
+\resumeItem{Managed the end-to-end \textbf{ETL} and data preparation lifecycle for high-volume clinical datasets using \textbf{PySpark}, optimizing distributed validation processes to ensure high-fidelity inputs for advanced health research.}
+\resumeItem{\textbf{Modernized} legacy data processing flows into automated, distributed workloads utilizing \textbf{Spark SQL}, reducing manual processing overhead and accelerating execution runtimes by approximately \textbf{30\%} for large-scale analysis.}
+\resumeItem{Spearheaded a comprehensive technical training initiative and documented core \textbf{Spark} architectures, accelerating team onboarding and enabling unified \textbf{cross-functional collaboration} across multidisciplinary research units.}
+\resumeItem{Delivered interactive, publication-ready analytical dashboards utilizing \textbf{Power BI} and \textbf{R Markdown} to synthesize complex health data, directly supporting stakeholders in the execution of peer-reviewed studies.}
 \resumeItemListEnd
 
 \resumeSubheading
       {Front End Developer Intern}{May 2024 -- Aug. 2024}
       {BERL}{}
 \resumeItemListStart
-\resumeItem{Architected optimized front-end components by refactoring \textbf{HTML/CSS} and extending \textbf{Cascade CMS} templates, reducing latency and streamlining content delivery.}
-\resumeItem{Engineered highly responsive web layouts utilizing \textbf{CSS Flexbox/Grid} and \textbf{Adobe Photoshop}, optimizing administrative screens by consolidating control interfaces into streamlined, single-line formats.}
-\resumeItem{Enforced strict accessibility and code quality standards through rigorous component inspections and peer coaching, ensuring consistent, high-performance UI deployments.}
+\resumeItem{Architected highly responsive front-end applications by refactoring legacy \textbf{React} layouts, utilizing \textbf{CSS Flexbox/Grid}, and extending \textbf{Cascade CMS} templates, significantly reducing system latency and streamlining digital content delivery.}
+\vspace{-4pt} 
+\resumeItem{Transformed monolithic administrative interfaces into streamlined operational workflows while enforcing strict accessibility and code quality standards through rigorous peer code reviews, ensuring \textbf{continuous improvement}, high-performance UI deployments, and system stability.}
 \resumeItemListEnd
 
 \resumeSubheading
-    {\href{}{Software Developer Intern}}{Sept 2023 -- Apr. 2024}
-    {Cultureplex}{}
+  {\href{}{Software Developer Intern}}{Sept 2023 -- Apr. 2024}
+  {Cultureplex}{}
 \resumeItemListStart
-\resumeItem{Engineered custom \textbf{Python (pandas, NumPy)} and \textbf{SQL}-based analytical frameworks to process complex cultural datasets, accelerating digital humanities research and data extraction.}
-\resumeItem{Optimized \textbf{MySQL} database architecture through advanced schema normalization, strategic indexing, and query tuning, significantly reducing data retrieval latency.}
-\resumeItem{Developed robust \textbf{ETL pipelines} leveraging Python and regular expressions to transform unstructured text, while managing task schedules to facilitate seamless tool adoption by research teams.}
-\resumeItem{Generated high-impact data visualizations using \textbf{Matplotlib/Seaborn}, providing researchers with clear, structured datasets via \textbf{Excel/CSV} to accelerate timely academic publications.}
+\resumeItem{Engineered custom \textbf{Python (pandas, NumPy)} and \textbf{SQL}-based analytical frameworks to process and aggregate complex datasets, accelerating large-scale data extraction for digital humanities research initiatives.}
+\resumeItem{Optimized \textbf{PostgreSQL} database architecture through advanced \textbf{data modeling}, schema normalization, and strategic query tuning, mitigating performance bottlenecks and significantly reducing data retrieval latency.}
+\resumeItem{Introduced a novel \textbf{ETL pipeline} leveraging \textbf{Python} and \textbf{LLMs (Generative AI)} to systematically \textbf{transform} unstructured text into structured formats, enabling seamless tool adoption by \textbf{cross-functional} research teams.}
+\resumeItem{Generated high-impact visualizations (\textbf{Matplotlib/Seaborn}), translating complex aggregated data into unified \textbf{Excel/CSV} structures to support stakeholders in accelerating academic publications.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -171,15 +172,17 @@ $|$
 \section{\textcolor{blue}{\textbf{Technical Skills \& Certifications}}}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-    \textbf{Data Science \& ML}{: Python, R, PyTorch, TensorFlow, Scikit-Learn, XGBoost, Generative Language Models, Pandas, NumPy, Polars, SciPy, PySpark, Matplotlib, Seaborn, SHAP, UMAP, Yellowbrick, Jupyter} \\
-    \textbf{Languages \& Web}{: Java, C, C++, C\#, Bash, PHP, HTML/CSS, XML, Django, .NET, React} \\
-    \textbf{Cloud, Data \& DevOps}{: AWS, Azure, Google Cloud, Docker, Git, Maven, Elasticsearch, Lucene, MapReduce, Regex, Excel, CSV, Claude Code} \\
+    \textbf{Data Science \& ML}{: Python, R, PyTorch, TensorFlow, Scikit-Learn, XGBoost, LLMs / Generative AI, Pandas, NumPy, Polars, SciPy, PySpark, Matplotlib, Seaborn, SHAP, UMAP, Yellowbrick, Jupyter} \\
+    \textbf{Languages \& Web}{: SQL, Java, C, C++, C\#, Bash, PHP, HTML/CSS, XML, Django, .NET, React} \\
+    \textbf{Cloud, Data Engineering \& DevOps}{: ETL / ELT, Data Pipelines, Data Modeling, Airflow, AWS, Azure, GCP, Docker, Git, Maven, Elasticsearch, Lucene, MapReduce, Regex, Excel, CSV, Claude Code} \\
     \textbf{Databases}{: MySQL, DynamoDB, Snowﬂake, Hadoop, Firebase, MongoDB, SQLite, PostgreSQL, MSSQL}
     }}
 \end{itemize}
 
 \resumeItemListStart
+\vspace{-12pt}
   \resumeItem{\textbf{AWS} Machine Learning Engineer Certificate - In Progress}
+  \vspace{-4pt}
   \resumeItem{\textbf{Meta} Backend Developer Specialization Certificate}
 \resumeItemListEnd
 \end{document}
