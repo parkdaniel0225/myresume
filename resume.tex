@@ -28,8 +28,8 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.5in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.7in}
 \setlength{\footskip}{4.08003pt}
 \urlstyle{same}
 
@@ -78,17 +78,18 @@
 }
 
 \newcommand{\resumeItemListEnd}{
-  \end{itemize}\vspace{-5pt}
+  \end{itemize}\vspace{-7pt}
 }
+
 
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge  Daniel Park} \\ \vspace{2pt}
-    \footnotesize +1(548)-788-1341 $|$ \href{mailto:parkdaniel0225@gmail.com}{\textcolor{blue}{\underline{parkdaniel0225@gmail.com}}} $|$ 
-    \href{https://github.com/parkdaniel0225}{\textcolor{blue}{\underline{github.com/parkdaniel0225}}}
+  \textbf{\Huge  Daniel Park} \\ \vspace{2pt}
+  \footnotesize +1(548)-788-1341 $|$ \href{mailto:parkdaniel0225@gmail.com}{\textcolor{blue}{\underline{parkdaniel0225@gmail.com}}} $|$ 
+  \href{https://github.com/parkdaniel0225}{\textcolor{blue}{\underline{github.com/parkdaniel0225}}}
 $|$ 
 \href{https://www.linkedin.com/in/danielpark0225}{\textcolor{blue}{\underline{linkedin.com/in/danielpark0225}}}
 $|$ 
@@ -105,11 +106,11 @@ $|$
     \resumeItemListStart
 \resumeItem{Member of \textbf{Western AI}, \textbf{Western CS Undergraduate Society} and Events Assistant at Western Sneaker Club.}
     \resumeItemListEnd
-    \vspace{-6pt}\item \small{\textbf{Relevant Courses:} Machine Learning, Databases, Statistical Programming, Unstructured Data, Operating Systems, Data Structures and Algorithms, Computer Networks}
+    \vspace{-3pt}\item[] \small{\textbf{Relevant Courses:} Machine Learning, Databases, Statistical Programming, Unstructured Data, Operating Systems, Data Structures and Algorithms, Computer Networks.}
   \resumeSubHeadingListEnd
 
 %---------------------Experience---------------
-\section{\textcolor{blue}{\textbf{Professional Experiences}}}
+\vspace{-10pt}\section{\textcolor{blue}{\textbf{Professional Experiences}}}
 \resumeSubHeadingListStart
 
 \resumeSubheading
@@ -155,34 +156,35 @@ $|$
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-------
-\section{\textcolor{blue}{\textbf{Projects} $|$ \textnormal{\href{https://danielpark.vercel.app/}{\textcolor{blue}{\underline{\textnormal{View All}}} }}}} 
+\vspace{-4pt}\section{\textcolor{blue}{\textbf{Projects} $|$ \textnormal{\href{https://danielpark.vercel.app/}{\textcolor{blue}{\underline{\textnormal{View All}}} }}}} 
 
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{Spellchecker Application} $|$ \emph{Java, Java Swing}}{}
+{\textbf{North American Ski Resorts Powder Predictor} $|$ \emph{Airflow, PySpark, AWS, XGBoost, React}}{}
 \resumeItemListStart
-\resumeItem{Developed a standalone \textbf{Java Swing} desktop application for \textbf{spellchecking text documents}; implemented file handling and integrated a \textbf{Trie data structure} for efficient word storage and fast lookups.}
-\resumeItem{Collaborated on project specifications and optimized \textbf{UI/UX design} to deliver a user-focused, high-performing solution with reliable text processing and responsive error detection.}
+\resumeItem{Architected an automated \textbf{ETL pipeline} using \textbf{Apache Airflow} to extract daily meteorological data, orchestrating cloud-native workflows to predict optimal ski conditions across hundreds of \textbf{North American resorts}.}
+\resumeItem{Engineered robust \textbf{data transformation} scripts using \textbf{PySpark} to aggregate high-volume historical weather patterns, storing structured outputs in an \textbf{AWS PostgreSQL} data warehouse.}
+\resumeItem{Deployed a predictive \textbf{XGBoost machine learning} model to forecast daily condition scores, serving actionable insights through a highly responsive \textbf{React} dashboard.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------
-\section{\textcolor{blue}{\textbf{Technical Skills \& Certifications}}}
+\vspace{-4pt}\section{\textcolor{blue}{\textbf{Technical Skills \& Certifications}}}
 \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
+    \item \small{
     \textbf{Data Science \& ML}{: Python, R, PyTorch, TensorFlow, Scikit-Learn, XGBoost, LLMs / Generative AI, Pandas, NumPy, Polars, SciPy, PySpark, Matplotlib, Seaborn, SHAP, UMAP, Yellowbrick, Jupyter} \\
     \textbf{Languages \& Web}{: SQL, Java, C, C++, C\#, Bash, PHP, HTML/CSS, XML, Django, .NET, React} \\
     \textbf{Cloud, Data Engineering \& DevOps}{: ETL / ELT, Data Pipelines, Data Modeling, Airflow, AWS, Azure, GCP, Docker, Git, Maven, Elasticsearch, Lucene, MapReduce, Regex, Excel, CSV, Claude Code} \\
     \textbf{Databases}{: MySQL, DynamoDB, Snowﬂake, Hadoop, Firebase, MongoDB, SQLite, PostgreSQL, MSSQL}
-    }}
+    }
+    
+    \vspace{-9pt} 
+    
+    \begin{itemize}[leftmargin=0.3in, label=\textbullet]
+        \item \small{\textbf{AWS} Machine Learning Engineer Certificate - In Progress}\vspace{-3pt}
+        \item \small{\textbf{Meta} Backend Developer Specialization Certificate}
+    \end{itemize}
 \end{itemize}
-
-\resumeItemListStart
-\vspace{-12pt}
-  \resumeItem{\textbf{AWS} Machine Learning Engineer Certificate - In Progress}
-  \vspace{-4pt}
-  \resumeItem{\textbf{Meta} Backend Developer Specialization Certificate}
-\resumeItemListEnd
 \end{document}
