@@ -198,8 +198,6 @@ INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tf
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy7.tfm
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\parkd\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -225,6 +223,8 @@ INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro7t.vf
+INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT resume.aux
 INPUT .\resume.out
 INPUT .\resume.out

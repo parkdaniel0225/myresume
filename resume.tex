@@ -26,8 +26,8 @@
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.23in}
 \addtolength{\topmargin}{-.8in}
 \addtolength{\textheight}{1.7in}
 \setlength{\footskip}{4.08003pt}
@@ -62,11 +62,12 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item[]
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+  \vspace{0pt}\item[]
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-7.3pt}
 }
+
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -131,12 +132,11 @@ $|$
 \resumeItem{Managed the end-to-end \textbf{ETL} and data preparation lifecycle for high-volume clinical datasets using \textbf{PySpark}, optimizing distributed validation processes to ensure high-fidelity inputs for advanced health research.}
 \resumeItem{\textbf{Modernized} legacy data processing flows into automated, distributed workloads utilizing \textbf{Spark SQL}, reducing manual processing overhead and accelerating execution runtimes by approximately \textbf{30\%} for large-scale analysis.}
 \resumeItem{Spearheaded a comprehensive technical training initiative and documented core \textbf{Spark} architectures, accelerating team onboarding and enabling unified \textbf{cross-functional collaboration} across multidisciplinary research units.}
-\resumeItem{Delivered interactive, publication-ready analytical dashboards utilizing \textbf{Power BI} and \textbf{R Markdown} to synthesize complex health data, directly supporting stakeholders in the execution of peer-reviewed studies.}
 \resumeItemListEnd
 
 \resumeSubheading
-      {Front End Developer Intern}{May 2024 -- Aug. 2024}
-      {BERL}{}
+  {Front End Developer Intern}{May 2024 -- Aug. 2024}
+  {BERL}{}
 \resumeItemListStart
 \resumeItem{Architected highly responsive front-end applications by refactoring legacy \textbf{React} layouts, utilizing \textbf{CSS Flexbox/Grid}, and extending \textbf{Cascade CMS} templates, significantly reducing system latency and streamlining digital content delivery.}
 \vspace{-4pt} 
@@ -161,11 +161,12 @@ $|$
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\textbf{North American Ski Resorts Powder Predictor} $|$ \emph{Airflow, PySpark, AWS, XGBoost, React}}{}
+{\textbf{Canadian Ski Resorts Powder Predictor} $|$ \emph{Airflow, PySpark, AWS (S3/RDS), XGBoost, Flask, React}}{}
 \resumeItemListStart
-\resumeItem{Architected an automated \textbf{ETL pipeline} using \textbf{Apache Airflow} to extract daily meteorological data, orchestrating cloud-native workflows to predict optimal ski conditions across hundreds of \textbf{North American resorts}.}
-\resumeItem{Engineered robust \textbf{data transformation} scripts using \textbf{PySpark} to aggregate high-volume historical weather patterns, storing structured outputs in an \textbf{AWS PostgreSQL} data warehouse.}
-\resumeItem{Deployed a predictive \textbf{XGBoost machine learning} model to forecast daily condition scores, serving actionable insights through a highly responsive \textbf{React} dashboard.}
+\resumeItem{Architected an end-to-end \textbf{MLOps pipeline} using \textbf{Apache Airflow} to automate daily ingestion of 7-day weather forecasts for 18 Canadian ski resorts via \textbf{Open-Meteo REST APIs}.}
+\resumeItem{Built a cost-effective \textbf{data lake on AWS S3} for raw storage and implemented a \textbf{PySpark ETL} job to compute complex meteorological features, including 3-day rolling snowfall and freeze-thaw cycles.}
+\resumeItem{Trained an \textbf{XGBoost Regressor} on 62,000+ historical records to predict a "Powder Score" (1-10), achieving an MAE of 0.01 and deploying model inference to an \textbf{AWS RDS PostgreSQL} warehouse.}
+\resumeItem{Developed a \textbf{Flask REST API} to serve insights to a dark-mode \textbf{React dashboard}, enabling users to filter and identify optimal skiing conditions.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd

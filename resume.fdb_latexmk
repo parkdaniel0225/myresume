@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1779939562.76781 "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" "resume.pdf" "resume" 1779939563.51078 0
+["pdflatex"] 1780076922.48492 "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" "resume.pdf" "resume" 1780076923.17502 0
   "C:/Users/parkd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779841220 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/parkd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779841129 24225046 47a25137ab577557b75a253371338f0e ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -31,7 +31,6 @@
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136765053 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy5.tfm" 1136765053 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136765053 520 4889cce2180234b97cad636b6039c722 ""
-  "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy7.tfm" 1136765053 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136765053 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy9.tfm" 1136765053 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -113,10 +112,10 @@
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" 1779939562 10390 db81b527bab76ab8af9bc33ce45895aa ""
-  "resume.aux" 1779939563 943 ddf6bcb41f62687f54b2ea73fe52a675 "pdflatex"
-  "resume.out" 1779939563 629 d045309b635fe46578e4c33f8fd109b2 "pdflatex"
-  "resume.tex" 1779939562 10390 db81b527bab76ab8af9bc33ce45895aa ""
+  "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" 1780076921 10328 fa0d8d54e3c075ce320ee4a4a96acc53 ""
+  "resume.aux" 1780076923 943 ddf6bcb41f62687f54b2ea73fe52a675 "pdflatex"
+  "resume.out" 1780076923 629 d045309b635fe46578e4c33f8fd109b2 "pdflatex"
+  "resume.tex" 1780076921 10328 fa0d8d54e3c075ce320ee4a4a96acc53 ""
   (generated)
   "resume.aux"
   "resume.log"
