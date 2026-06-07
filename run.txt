@@ -1,0 +1,7 @@
+to run, on terminal:
+
+pdflatex -jobname="Resume-Daniel Park" resume.tex
+
+and for website (without phone number):
+
+pdflatex -jobname="Resume-Daniel(nophone)" "\def\nophone{}\input{resume.tex}"

@@ -89,7 +89,14 @@
 
 \begin{center}
   \textbf{\Huge  Daniel Park} \\ \vspace{5pt}
-  \footnotesize +1(548)-788-1341 $|$ \href{mailto:parkdaniel0225@gmail.com}{\textcolor{blue}{\underline{parkdaniel0225@gmail.com}}} $|$ 
+  \footnotesize 
+  % CONDITIONAL PHONE NUMBER CHECK
+  \ifdefined\nophone
+    % Do nothing if \nophone is defined
+  \else
+    +1(548)-788-1341 $|$ 
+  \fi
+  \href{mailto:parkdaniel0225@gmail.com}{\textcolor{blue}{\underline{parkdaniel0225@gmail.com}}} $|$ 
   \href{https://github.com/parkdaniel0225}{\textcolor{blue}{\underline{github.com/parkdaniel0225}}}
 $|$ 
 \href{https://www.linkedin.com/in/danielpark0225}{\textcolor{blue}{\underline{linkedin.com/in/danielpark0225}}}
