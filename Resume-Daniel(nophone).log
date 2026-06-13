@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.5.26)  12 JUN 2026 19:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.5.26)  12 JUN 2026 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,14 +409,9 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
+Package rerunfilecheck Info: File `Resume-Daniel(nophone).out' has not changed.
 
-Package rerunfilecheck Warning: File `Resume-Daniel(nophone).out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Resume-Daniel(nophone).out':
-(rerunfilecheck)             Before: 8178769A591DAE54593BE5DC5893BD68;390
-(rerunfilecheck)             After:  A0E2ACBA8EA95F515343F06595C8F496;395.
+(rerunfilecheck)             Checksum: A0E2ACBA8EA95F515343F06595C8F496;395.
  ) 
 Here is how much of TeX's memory you used:
  10843 strings out of 474486
@@ -438,7 +433,7 @@ d/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Us
 ers/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pf
 b><C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmti10.pfb>
-Output written on Resume-Daniel(nophone).pdf (1 page, 150344 bytes).
+Output written on Resume-Daniel(nophone).pdf (1 page, 149678 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
