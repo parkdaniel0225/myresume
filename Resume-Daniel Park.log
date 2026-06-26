@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.5.26)  13 JUN 2026 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.5.26)  25 JUN 2026 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -379,24 +379,24 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <10.5> not available
 (Font)              size <10.95> substituted on input line 88.
 
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 139.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 140.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 139.
+(Font)              size <10.95> substituted on input line 140.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 139.
+(Font)              size <10.95> substituted on input line 140.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.5> on input line 139.
+(Font)              <10.5> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.34996> on input line 139.
+(Font)              <7.34996> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.25> on input line 139.
+(Font)              <5.25> on input line 140.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 139.
+(Font)              size <10.95> substituted on input line 140.
 
 [1
 
@@ -411,8 +411,14 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
-Package rerunfilecheck Info: File `"Resume-Daniel Park".out' has not changed.
-(rerunfilecheck)             Checksum: A0E2ACBA8EA95F515343F06595C8F496;395.
+
+Package rerunfilecheck Warning: File `"Resume-Daniel Park".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Resume-Daniel Park".out':
+(rerunfilecheck)             Before: A0E2ACBA8EA95F515343F06595C8F496;395
+(rerunfilecheck)             After:  5402DE28B20022A1D65E04066AA60DC9;390.
  ) 
 Here is how much of TeX's memory you used:
  10841 strings out of 474486
@@ -421,7 +427,7 @@ Here is how much of TeX's memory you used:
  32995 multiletter control sequences out of 15000+600000
  563914 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,633b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,617b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -434,7 +440,7 @@ d/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Us
 ers/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pf
 b><C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmti10.pfb>
-Output written on "Resume-Daniel Park.pdf" (1 page, 150905 bytes).
+Output written on "Resume-Daniel Park.pdf" (1 page, 151121 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

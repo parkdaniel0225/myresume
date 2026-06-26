@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1782432393.46652 "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" "resume.pdf" "resume" 1782432394.26897 2
+["pdflatex"] 1782435401.04544 "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" "resume.pdf" "resume" 1782435401.77922 0
   "C:/Users/parkd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779841220 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/parkd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779841129 24225046 47a25137ab577557b75a253371338f0e ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -88,10 +88,10 @@
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/parkd/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" 1782432392 8654 ad36adba591a905f0df35053456ac238 ""
-  "resume.aux" 1782432393 674 f7ac409cf5a3ed767f91cf8b5f5c838a "pdflatex"
-  "resume.out" 1782432393 395 a0e2acba8ea95f515343f06595c8f496 "pdflatex"
-  "resume.tex" 1782432392 8654 ad36adba591a905f0df35053456ac238 ""
+  "c:/Users/parkd/OneDrive/Desktop/resume/myresume/resume.tex" 1782435400 8597 09b16d2117b424af125b14c777529f96 ""
+  "resume.aux" 1782435401 673 c6ac66703ffc56b096bb22c865fa11bc "pdflatex"
+  "resume.out" 1782435401 390 5402de28b20022a1d65e04066aa60dc9 "pdflatex"
+  "resume.tex" 1782435400 8597 09b16d2117b424af125b14c777529f96 ""
   (generated)
   "resume.aux"
   "resume.log"

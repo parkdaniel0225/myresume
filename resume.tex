@@ -59,7 +59,7 @@
 }
 
 % GLOBAL ROLE/PROJECT SPACING: Adjusted itemsep to 6pt (from 1pt) to increase gap between jobs
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}, itemsep=6pt, parsep=0pt, topsep=1pt]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}, itemsep=9pt, parsep=0pt, topsep=1pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 
 \newcommand{\resumeItemListStart}{
@@ -78,17 +78,19 @@
 
 \begin{center}
 \textbf{\Huge Daniel Park} \\ \vspace{3pt}
-\footnotesize \ifdefined\nophone \else \mbox{+1 548-788-1341} \hspace{2pt}$|$\hspace{2pt} \fi \mbox{\href{mailto:parkdaniel0225@gmail.com}{parkdaniel0225@gmail.com}} \hspace{2pt}$|$\hspace{2pt} \mbox{\href{https://github.com/parkdaniel0225}{github.com/parkdaniel0225}} \hspace{2pt}$|$\hspace{2pt} \mbox{\href{https://www.linkedin.com/in/danielpark0225}{linkedin.com/in/danielpark0225}} \hspace{2pt}$|$\hspace{2pt} \mbox{\href{https://danielpark.vercel.app}{danielpark.vercel.app}}
+\footnotesize \ifdefined\nophone \else \mbox{+1 548-788-1341} \hspace{2pt}$|$\hspace{2pt} \fi \mbox{\href{mailto:parkdaniel0225@gmail.com}{parkdaniel0225@gmail.com}} \hspace{2pt}$|$\hspace{2pt} \mbox{\href{https://github.com/parkdaniel0225}{github.com/parkdaniel0225}} \hspace{2pt}$|$\hspace{2pt} \mbox{\href{https://www.linkedin.com/in/dp0225}{linkedin.com/in/dp0225}} \hspace{2pt}$|$\hspace{2pt} \mbox{\href{https://danielpark.vercel.app}{danielpark.vercel.app}}
 \end{center}
 
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Western University}{Sept. 2021 -- Apr. 2026}
+{Western University}{}
 {Bachelor of Science, specialization in \textbf{Computer Science}}{}
 \resumeItemListStart
-\resumeItem{\textbf{Relevant Coursework:} Machine Learning, Databases, Data Science,Operating Systems, Computer Networks, Software Engineering, Object-oriented Programming, Data Structures and Algorithms, Computer Architecture, Cloud Computing}
+\resumeItem{\textbf{Relevant Coursework:} Machine Learning, Databases, Operating Systems, Computer Networks, Software Engineering}
 \resumeItemListEnd
+\vspace{4pt}
+\textbf{Certifications}{: AWS Machine Learning Engineer Certificate, Meta Back-End Developer Specialization Certificate}
 \resumeSubHeadingListEnd
 
 \section{Experiences}
@@ -98,17 +100,17 @@
 {Machine Learning Intern}{Sept. 2025 -- Apr. 2026}
 {HEAL (Python, AWS S3, Airflow, Google Places API, Scikit-Learn, XGBoost)}{}
 \resumeItemListStart
-\resumeItem{Architected a \textbf{cloud-native} \textbf{ETL pipeline} on \textbf{AWS S3} via \textbf{Apache Airflow} and the \textbf{Google Places API} to detect \textbf{spatial anomalies}, processing \textbf{25K+} retail records across \textbf{80+} Canadian cities.}
+\resumeItem{Architected a \textbf{cloud-native} \textbf{ETL pipeline} on \textbf{AWS S3} via \textbf{Apache Airflow} and the \textbf{Google Places API} to ingest logs into a Data Lake and detect \textbf{spatial anomalies}, processing \textbf{25K+} retail records across \textbf{80+} Canadian cities.}
 \resumeItem{Engineered \textbf{Python} workflows to sanitize \textbf{unstructured text} and normalize \textbf{metadata}, reducing \textbf{dataset anomalies} and inconsistencies by \textbf{30\%}.}
 \resumeItem{Implemented \textbf{MLOps practices}, \textbf{versioned storage}, and rigorous \textbf{schema validation} to establish \textbf{data governance} and ensure pipeline reliability.}
-\resumeItem{Trained \textbf{predictive} \textbf{Scikit-Learn} and \textbf{XGBoost} models (\textbf{clustering}, \textbf{time-series forecasting}) to analyze \textbf{retail density trends}, deploying \textbf{visualizations} for \textbf{data-driven} strategic decisions.}
+\resumeItem{Trained \textbf{predictive} \textbf{Scikit-Learn} and \textbf{XGBoost} models (\textbf{clustering}, \textbf{time-series forecasting}) to analyze \textbf{retail density trends}, driving end-to-end Model Deployment and analytics dashboards for \textbf{data-driven} strategic decisions.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Data Science Intern}{Sept. 2024 -- Aug. 2025}
 {interRAI (Python, PySpark, Spark SQL)}{}
 \resumeItemListStart
-\resumeItem{Managed \textbf{distributed} \textbf{PySpark ETL} workflows to validate and transform \textbf{250K+} clinical assessment records, ensuring \textbf{high-fidelity inputs} for health research.}
+\resumeItem{Managed \textbf{distributed} \textbf{PySpark ETL} workflows to validate and transform \textbf{250K+} clinical data assessment records across healthcare informatics infrastructure, ensuring \textbf{high-fidelity inputs} for health research.}
 \resumeItem{Modernized legacy \textbf{data pipelines} into \textbf{automated} \textbf{Spark SQL workloads}, reducing execution runtime by \textbf{30\%} and lowering manual processing overhead.}
 \resumeItem{Documented core \textbf{Spark architectures} and led technical training, accelerating onboarding and streamlining \textbf{cross-functional collaboration}.}
 \resumeItemListEnd
@@ -117,28 +119,27 @@
 {Software Developer Intern }{May 2024 -- Aug. 2024}
 {BERL (React, FastAPI, CSS Flexbox/Grid, Cascade CMS)}{}
 \resumeItemListStart
-\resumeItem{Refactored \textbf{15+} legacy \textbf{React components} and \textbf{Cascade CMS templates} via \textbf{CSS Flexbox/Grid}, reducing \textbf{system latency} across \textbf{25+} production pages.}
-\resumeItem{Built \textbf{6+} \textbf{FastAPI endpoints} for \textbf{administrative workflows}, enforcing \textbf{accessibility standards} and optimizing \textbf{backend form handling}.}
+\resumeItem{Refactored \textbf{15+} legacy \textbf{React components} via \textbf{CSS Flexbox/Grid} to cut page latency while building \textbf{6+} \textbf{FastAPI endpoints} for administrative workflows enforcing accessibility standards.}
 \resumeItemListEnd
 
 \resumeSubheading
 {Software Developer Intern}{Sept. 2023 -- Apr. 2024}
 {Cultureplex (Python, SQL, PostgreSQL, LLMs, Matplotlib, Seaborn)}{}
 \resumeItemListStart
-\resumeItem{Engineered \textbf{Python} and \textbf{SQL ETL pipelines}, leveraging \textbf{LLMs (Generative AI)} to transform \textbf{1K+} unstructured research records into \textbf{searchable metadata} and \textbf{structured PostgreSQL tables}.}
+\resumeItem{Engineered \textbf{Python} and \textbf{SQL ETL pipelines}, leveraging \textbf{LLMs (Generative AI)} to transform \textbf{1K+} unstructured research records into \textbf{searchable metadata} and \textbf{structured PostgreSQL tables} for Data Warehousing.}
 \resumeItem{Optimized \textbf{PostgreSQL databases} via advanced \textbf{data modeling}, \textbf{indexing}, and \textbf{query tuning}, improving \textbf{retrieval latency} by \textbf{35\%}.}
-\resumeItem{Generated \textbf{Matplotlib} and \textbf{Seaborn} \textbf{data visualizations} to translate \textbf{aggregated data} for \textbf{cross-functional teams}, accelerating academic publications.}
+\resumeItem{Generated \textbf{Matplotlib} and \textbf{Seaborn} \textbf{data visualizations}, alongside Tableau and PowerBI reports, to translate \textbf{aggregated data} for \textbf{cross-functional teams}, accelerating academic publications.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-\section{Projects}
+\section{Project}
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
 {\textbf{Canadian Ski Resorts Powder Predictor} $|$ \emph{Airflow, PySpark, AWS S3/RDS, XGBoost, Flask, React}}{}
 \resumeItemListStart
-\resumeItem{Architected an end-to-end \textbf{Airflow, AWS S3, and PySpark ETL pipeline} to process \textbf{62,000+} historical records and automate daily ingestion of \textbf{7}-day weather forecasts for \textbf{18} Canadian ski resorts via \textbf{Open-Meteo REST APIs}.}
+\resumeItem{Architected an \textbf{Airflow, AWS S3, and PySpark ETL pipeline} utilizing a Data Lakehouse with \textbf{CI/CD} to ingest \textbf{62K+} records and automated \textbf{7}-day forecasts via \textbf{Open-Meteo REST APIs} for \textbf{18} Canadian ski resorts.}
 \resumeItem{Engineered temporal features, including \textbf{3}-day rolling snowfall and freeze-thaw cycles, to train an \textbf{XGBoost Regressor} predicting a "Powder Score" (\textbf{1}-\textbf{10}) with an MAE of \textbf{0.01}, storing inferences in an \textbf{AWS RDS PostgreSQL} warehouse.}
 \resumeItem{Built a \textbf{Flask REST API} and a dark-mode \textbf{React} dashboard to expose powder scores, resort comparisons, and weather-driven recommendations across \textbf{15+} resort views.}
 \resumeItemListEnd
@@ -149,13 +150,12 @@
 \vspace{-1pt}
 \begin{itemize}[leftmargin=0in, label={}, itemsep=1pt, parsep=0pt, topsep=1pt]
 \item[]\fontsize{10pt}{11.8pt}\selectfont{
-\textbf{Languages}{: Python, R, SQL, Java, C/C++, C#, JavaScript, Bash, PHP, HTML/CSS}\par
+\textbf{Languages}{: Python, R, SQL, Java, C/C++, C\#, JavaScript, Bash, PHP, HTML/CSS}\par
 \vspace{1pt}
-\textbf{ML \& Data}{: PySpark, Spark SQL, Airflow, pandas, NumPy, Polars, SciPy, Scikit-Learn, XGBoost, PyTorch, TensorFlow, LLMs / Generative AI, Matplotlib, Seaborn, SHAP, UMAP, Yellowbrick, Jupyter, ETL/ELT}\par
+\textbf{ML \& Data}{: PySpark, Spark SQL, Airflow, Data Warehousing, Data Lake / Lakehouse, CI/CD, Model Deployment, pandas, NumPy, Polars, SciPy, Scikit-Learn, XGBoost, PyTorch, TensorFlow, LLMs / Generative AI, Matplotlib, Seaborn, SHAP, UMAP, Yellowbrick, Jupyter, ETL/ELT, Tableau, PowerBI}\par
 \vspace{1pt}
-\textbf{Backend \& Cloud}{: AWS S3/RDS, Azure, GCP, Flask, FastAPI, REST/RESTful APIs, Django, .NET, React, PostgreSQL, MySQL, MSSQL, SQLite, MongoDB, DynamoDB, Snowflake, Elasticsearch, Lucene, MapReduce, Docker, Git, Maven, Regex, Claude Code}\par
+\textbf{Backend \& Cloud}{: AWS S3/RDS, Azure, GCP, Flask, FastAPI, REST/RESTful APIs, Django, .NET, React, PostgreSQL, MySQL, MSSQL, SQLite, MongoDB, DynamoDB, Snowflake, Elasticsearch, Lucene, MapReduce, Docker, Git, Maven, Regex}\par
 \vspace{1pt}
-\textbf{Certifications}{: AWS Machine Learning Engineer Certificate, Meta Back-End Developer Professional Certificate}
 }
 \end{itemize}
 \vspace{-5pt}

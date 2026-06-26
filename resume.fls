@@ -130,8 +130,14 @@ OUTPUT resume.aux
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-OUTPUT resume.out
+INPUT .\resume.out
+INPUT .\resume.out
+INPUT resume.out
+INPUT resume.out
 OUTPUT resume.pdf
+INPUT .\resume.out
+INPUT .\resume.out
+OUTPUT resume.out
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\parkd\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
